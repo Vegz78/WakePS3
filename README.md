@@ -9,6 +9,8 @@ Sadly, the Windows bluetooth stack doesn't yet seem to allow the same to be easi
 
 I've made a working attempt, using this script on a always-on and Bluetooth enabled Linux device(Raspberry Pi), to accomplish this indirectly from a Windows PC in this batch script package: https://github.com/Vegz78/PS3FromWin
 
+*Any tips about better working solutions for automatically and remotely powering on the PS3 over Bluetooth directly from Windows, would be greatly appreciated! Please post it as an issue inside the above mentioned Windows batch script package repository.*
+
 Feel free to copy, modify and use as you want. The script does what it's supposed to on my home system and won't be very actively supported, updated or maintained.
 
 # Prerequisites
