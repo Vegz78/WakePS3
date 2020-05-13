@@ -1,7 +1,7 @@
 # WakePS3
 A script to power on your PS3 remotely over Bluetooth directly from a games folder that executes .sh-scripts inside RetroPie/Emulationstation, or from a Linux command line.
 
-Works on most Cambridge Silicon USB BT devices and most built-in Raspberry Pi BT chips. Check chip details with shell command "hciconfig hci0 version" and the [device compatibility list](https://gimx.fr/wiki/index.php?title=Bluetooth_dongle). 
+Should work on most Cambridge Silicon USB BT devices and most built-in Raspberry Pi BT chips. I have tested it successfully on two RPis, RPi3 with Jessie and RPi3+ with Stretch, respectively, and one PC with a BT dongle running Buster. Please check chip details with shell command "hciconfig hci0 version" and the [device compatibility list](https://gimx.fr/wiki/index.php?title=Bluetooth_dongle). 
 
 The script was initially inspired by this Gist from [Nom-DePlume](https://gist.github.com/Nom-DePlume/a2a5433d0913107c1526a0b61b501792). But having an always-on Raspberry Pi server, and with some help from [Gimx' Command line wiki](https://gimx.fr/wiki/index.php?title=Command_line), it was faster and more convenient ssh to and to run a script from it, than to spin up a Linux VM from inside Windows.
 
