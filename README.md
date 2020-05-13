@@ -5,9 +5,9 @@ Works on most Cambridge Silicon USB BT devices and most built-in Raspberry Pi BT
 
 The script was initially inspired by this Gist from [Nom-DePlume](https://gist.github.com/Nom-DePlume/a2a5433d0913107c1526a0b61b501792). But having an always-on Raspberry Pi server, and with some help from [Gimx' Command line wiki](https://gimx.fr/wiki/index.php?title=Command_line), it was faster and more convenient ssh to and to run a script from it, than to spin up a Linux VM from inside Windows.
 
-Sadly, the Windows bluetooth stack doesn't yet seem to allow the same to be easily done directly from Windows, not even from WSL, which still has very limited access to hardware. Maybe one could make an automated batch script on Windows, which uses e.g. [plink](https://the.earth.li/~sgtatham/putty/0.73/htmldoc/Chapter7.html#plink) from the [Putty](https://www.putty.org) package to call this script on an always-on Linux unit remotely from Windows.
+Sadly, the Windows bluetooth stack doesn't yet seem to allow the same to be easily done directly from Windows, not even from WSL, which still has very limited access to hardware. 
 
-*Any tips about working solutions for automatically and remotely power on the PS3 over Bluetooth directly from Windows, would be greatly appreciated! Please post it as an issue inside this repository.*
+I've made a working attempt, using this script on a always-on and Bluetooth enabled Linux device(Raspberry Pi), to accomplish this indirectly from a Windows PC in this batch script package: https://github.com/Vegz78/PS3FromWin
 
 Feel free to copy, modify and use as you want. The script does what it's supposed to on my home system and won't be very actively supported, updated or maintained.
 
