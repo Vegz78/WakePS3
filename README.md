@@ -9,7 +9,7 @@ Sadly, the Windows bluetooth stack doesn't yet seem to allow the same to be easi
 
 *Any tips about working solutions for automatically and remotely power on the PS3 over Bluetooth directly from Windows, would be greatly appreciated! Please post it as an issue inside this repository.*
 
-Feel free to copy, modify and use as you want. The script does what it's supposed to on my home system and won't be supported, updated or actively maintained.
+Feel free to copy, modify and use as you want. The script does what it's supposed to on my home system and won't be very actively supported, updated or maintained.
 
 # Prerequisites
 - Raspberry Pi with Linux (but should work on most Linux distros, as well)
