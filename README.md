@@ -21,7 +21,7 @@ Feel free to copy, modify and use as you want. The script does what it's suppose
 - RetroPie/Emulationstation with [Steam or other games menu folders that execute .sh-scripts](#Example-of-sh-script-games-menu-in-Emulationstation)
 
 # Features
-- Automatically and remotely power on your PS3 remotely over Bluetooth.
+- Automatically power on your PS3 remotely over Bluetooth.
 - Can be run directly from the RetroPie Moonlight/Steam games list or from a Linux command line
 
 # Usage
