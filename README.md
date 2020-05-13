@@ -14,7 +14,7 @@ Feel free to copy, modify and use as you want. The script does what it's suppose
 # Prerequisites
 - Raspberry Pi with Linux (but should work on most Linux distros, as well)
 - [Gimx](https://github.com/matlo/GIMX/releases/) for Linux or [Raspberry Pi](https://gimx.fr/wiki/index.php?title=RPi), with sixaddr and bdaddr included
-- The [PS3_CallOfDutyBlackOps.xml](https://github.com/matlo/GIMX-configurations/blob/master/Windows/PS3_CallOfDutyBlackOps.xml) config file in the ~/.gimx/config folder to run the script
+- The [PS3_CallOfDutyBlackOps.xml](https://github.com/matlo/GIMX-configurations/blob/master/Linux/PS3_CallOfDutyBlackOps.xml) config file in the ~/.gimx/config folder to run the script
 <br>(Or any other xml config file, to be able to run it, but then you have to change the script, as well. It doesn't matter, as the script is terminated after 2 seconds and the PS3 hopefully is powered on...)
 - RetroPie/Emulationstation with [Steam or other games menu folders that execute .sh-scripts](#Example-of-sh-script-games-menu-in-Emulationstation)
 
