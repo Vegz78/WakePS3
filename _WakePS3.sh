@@ -29,6 +29,7 @@ BT_ADDR=$(hciconfig hci0 | grep Address | cut -d " " -f3)  #Automatically get ad
 # BT_ADDR="02:A1:B2:C3:D4:E5"	#Original BT address of your BT device, from "hciconfig hci0 version"
 
 sudo bdaddr -i hci0 -r $CTRL_ADDR
+sleep 2
 gimx --nograb --type Sixaxis --config PS3_CallOfDutyBlackOps.xml --bdaddr $PS3_ADDR &>/dev/null &
 sleep 2
 sudo killall gimx
