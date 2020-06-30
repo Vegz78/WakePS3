@@ -16,7 +16,7 @@ There also seems to be an issue with changing the BT device address on the Raspb
 Feel free to copy, modify and use as you want. The script does what it's supposed to on my home system and won't be very actively supported, updated or maintained.
 
 # Prerequisites
-- Raspberry Pi with Linux (but should work on most Linux distros, as well)
+- Raspberry Pi with Raspbian (but should work on most Linux devices and distros, as well)
 - [Gimx](https://github.com/matlo/GIMX/releases/) for Linux or [Raspberry Pi](https://gimx.fr/wiki/index.php?title=RPi), with sixaddr and bdaddr included
 - The BT device addresses of your PS3 and a controller currently paired to the PS3, check the [GIMX documentation](https://gimx.fr/wiki/index.php?title=Guide&platform=ps3&connectiontype=BT&ostype=linux&device=Pad)
 - The [PS3_CallOfDutyBlackOps.xml](https://github.com/matlo/GIMX-configurations/blob/master/Linux/PS3_CallOfDutyBlackOps.xml) config file in the ~/.gimx/config folder to run the script
