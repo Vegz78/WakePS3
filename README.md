@@ -29,13 +29,14 @@ Feel free to copy, modify and use as you want. The script does what it's suppose
 
 # Usage
 
-1 - Download and copy the script into your RetroPie Moonlight/Steam roms folder, typically "/home/pi/RetroPie/roms/moonlight". Make sure it's executable. <br>
+1 - Install GIMX with sixaddr and bdaddr included and add a controller xml config file to the ~/.gimx/config folder. The last releases of GIMX v.8 works for Debian Buster, last of v.7 for Stretch, last of v.6 for Jessie etc.
+
+2 -  Download and copy the _WakePS3.sh script into your RetroPie Moonlight/Steam roms folder, typically "/home/pi/RetroPie/roms/moonlight". Make sure it's executable. <br>
     Alternatively, in your desired folder, run:<BR>
     ```git clone https://github.com/Vegz78/WakePS3 && sudo chmod +x ./WakePS3/_WakePS3.sh```
 
-2 - Edit _WakePS3.sh with the global variables' 2 OR 3 needed BT device addresses
-
-3 - Install GIMX and add a controller xml config file to the ~/.gimx/config folder. The last releases of GIMX v.8 works for Debian Buster, last of v.7 for Stretch, last of v.6 for Jessie etc.
+3 - Edit _WakePS3.sh with the global variables' 2 OR 3 needed BT device addresses. You can [find the PS3 master and controller bluetooth addresses](https://blog.gimx.fr/sixaxis-emulator-tutorial/) by connecting a PS3 Controller already powered on and paired with the PS3 console you want to wake by USB to your Raspberry Pi and typing the command '''sixaddr'''. 
+(If you get your BT device's address from the controller instead of the PS3's master BT address, try pairing the controller to the PS3 again and disable bluetooth on the Raspberry before connecting the controller by USB again). 
 
 4 - Start RetroPie and navigate to the Moonlight/Steam games list menu.
 
