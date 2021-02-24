@@ -15,7 +15,7 @@
 #												#
 # Other ways to remotely power on your PS3 remotely, is to activate Remote Start via the 	#
 # Remote Play settings on the PS3 and use Wake-On-Lan. But this will keep the fan spinning	#
-# and a higher power consumption when the PS3 is in standby/off:				#
+# and give a higher power consumption than when the PS3 is in standby/off:			#
 # https://manuals.playstation.net/document/en/ps3/current/settings/remotestart.html		#
 #												#
 #################################################################################################
